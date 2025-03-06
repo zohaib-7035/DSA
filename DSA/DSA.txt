@@ -1,0 +1,66 @@
+(1). INT_MAX and INT_MIN
+are used to store the max and min integer of the array of integer during the running of the code with header file climit. 
+(2). max(a,b) and min(a,b)
+are used to return the max and min value from both a and b.
+(3). string str(5,'n');
+It will print n for the five time in row.
+(4). cin.getline(a,7);
+It is used to cin the char array a of 7 size.
+(5). getline(cin,a);
+It is used to cin the string with spaces.
+(6). s1.append(s2);
+It is used to append the value of the s2 in s1.
+(7). abc.clear();
+It is used to clear the value of the string abc.
+(8). s1.compare(s2);
+It is used to compare the value of the s1 with s2.
+(9).s1.empty();
+It is used to check the string whether is it empty or not.
+(10). s1.erase(3,2);
+It is used to erase the two char from 3 index.
+(11). s1.find("abc");
+It return the index of the char at which it find the passed char.
+(12). S1.insert(2,"LOL");
+It insert the sub string at 2 index.
+(13). s1.lenght() or s1.size()
+These are used to get the length of the string.
+(14). s1.substr(6,4);
+It is used to get the substring from the 6 index till next four char.
+(15). int x=stoi(x);
+It return the converted answer from string to integers but it is used to convert the numeric string to integer.
+(16). to_string(x);
+It is used to convert the integer to numeric string.
+(17). sort(s1.begin(),s1.end());
+It is used to sort the unsorted char of the string by including the header file with the name of algorithm.
+While s1.begin() and s1.end() give the starting and the end point of the string.
+(18). next_permutation(nums.begin(), nums.end())
+It return next possible permutation of the set. 
+(19). for(auto &I:a){
+cin>>I; }
+It is used to get the cin for each possible locations.
+(20). vector<int> a(3,50);
+It is used to initialize the vector of length 3 and 50 at each location.
+(21).  stack<int>* st = new stack<int>;
+It is used to allocate a dynamic memory for the stack.
+(22). st[i] - '0';
+It is used to convert the char into the its corresponding integer. For example st[i]='9'=57 - '0' = 48;
+(23). vector<vector<int>> matrix(rows, vector<int>(cols));
+By using this we can make make 2D vector of the row and cols as the length and width.
+(24).for (const auto& row : matrix) {
+        for (int elem : row) {
+            cout << elem << " ";
+        }
+        cout << endl;
+    }
+By this way we can run the a loop on the 2D vector.
+(25).   matrix[0].push_back(7);
+By this we can push back a element in the 2D matrix.
+(26). 2^h - 1
+It is maximum number of the node a level h in the binary tree.
+(27). 2^L
+It is the maximum number of at a certain level L.
+(28). sizeof(arr) / sizeof(arr[0])
+It is used to find the size of an array.
+(29). abs(LH - RH) > 1
+Here abs is the function that return non negative value.It is mostly written in the if or while condition.
+(30). Time complexity for worst is n and for the best is constant and for average is directly proportion to n ie.(n+1)/2.
